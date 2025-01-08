@@ -6,59 +6,89 @@
     <title>关于我</title>
     <style>
         body {
-            background-color: #f5f5f5; /* 背景颜色 */
-            color: #333; /* 深灰色文字 */
-            font-family: '微软雅黑', Arial, sans-serif; /* 字体选择 */
-            line-height: 1.6; /* 行距设置 */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
         }
         .container {
-            max-width: 800px; /* 最大宽度限制 */
-            margin: 0 auto; /* 居中布局 */
-            padding: 20px; /* 内边距 */
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            position: relative;
         }
         h1 {
-            font-size: 36px; /* 标题字体大小 */
-            font-weight: bold; /* 加粗 */
-            color: #333; /* 标题颜色 */
-            text-align: center; /* 居中对齐 */
-            margin-bottom: 20px; /* 标题与段落间距 */
-        }
-        p {
-            font-size: 18px; /* 正文字体大小 */
-            text-align: justify; /* 两端对齐 */
-            margin-bottom: 15px; /* 段落间距 */
-        }
-        .back-link {
-            display: block;
-            text-align: center;
-            margin-top: 20px;
-            font-size: 18px;
-            color: #007bff;
-            text-decoration: none;
-        }
-        .back-link:hover {
-            text-decoration: underline;
-        }
-        .signature {
-            font-size: 48px;
-            font-weight: bold;
             color: #333;
-            text-align: center;
-            margin-top: 30px;
-            font-family: '华文新魏', '微软雅黑', Arial, sans-serif; /* 使用艺术字体 */
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        .home-link {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        .home-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>关于我</h1>
-        <p>名字：王世朋</p>
-        <p>联系邮箱：<a href="mailto:wsp@vip.qq.com">wsp@vip.qq.com</a></p>
-        <p>加入组织和发送建议请发邮件。</p>
-        <a href="index.html" class="back-link">返回主页</a>
-        <div class="signature">王世朋</div>
+        <a href="/" class="home-link">返回主页</a>
+        <h1>你好，我是 WSP 👋</h1>
+        <img src="https://komarev.com/ghpvc/?username=你的GitHub用户名" alt="Profile Views">
+
+        <h2>关于我</h2>
+        <ul>
+            <li>🔭 我目前正在研究/学习 [你的研究/学习主题]</li>
+            <li>🌱 我目前正在学习 [你正在学习的内容]</li>
+            <li>👯 我正在寻找合作 [你的合作目标]</li>
+            <li>🤔 我需要帮助 [你需要帮助的内容]</li>
+            <li>💬 问我关于 [你擅长的内容]</li>
+            <li>📫 如何联系我: [你的联系方式]</li>
+            <li>😄 兴趣爱好: [你的兴趣爱好]</li>
+            <li>⚡ 有趣的事实: [一个有趣的事实]</li>
+        </ul>
+
+        <h2>技能</h2>
+        <ul>
+            <li>编程语言: [你掌握的编程语言]</li>
+            <li>框架: [你熟悉的框架]</li>
+            <li>工具: [你常用的工具]</li>
+            <li>数据库: [你使用的数据库]</li>
+        </ul>
+
+        <h2>项目</h2>
+        <h3>项目 1</h3>
+        <p>[项目名称]</p>
+        <p>[项目描述]</p>
+        <a href="[项目链接]">项目链接</a>
+
+        <h3>项目 2</h3>
+        <p>[项目名称]</p>
+        <p>[项目描述]</p>
+        <a href="[项目链接]">项目链接</a>
+
+        <h2>联系我</h2>
+        <ul>
+            <li>个人网站: <a href="[你的个人网站]">[你的个人网站]</a></li>
+            <li>LinkedIn: <a href="[你的LinkedIn链接]">[你的LinkedIn链接]</a></li>
+            <li>GitHub: <a href="[你的GitHub链接]">[你的GitHub链接]</a></li>
+            <li>邮箱: <a href="mailto:[你的邮箱]">[你的邮箱]</a></li>
+        </ul>
+
+        <p>感谢你的访问！😊</p>
     </div>
 </body>
 </html>
